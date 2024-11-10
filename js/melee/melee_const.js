@@ -1,96 +1,104 @@
 const melee_construction = {
     'two-handed weapons': {
-        'masterwork 2h sword':{
+        't100 ezk': {
             'tier': 100,
             'weapondmg': 0,
         },
-        'ek-zekkil':{
+        'ek-zekkil': {
             'tier': 95,
             'weapondmg': 0,
         },
-        'zaros godsword':{
+        'zaros godsword': {
             'tier': 92,
             'weapondmg': 0
         },
-        'masterwork spear of annihilation':{
+        'masterwork spear of annihilation': {
             'tier': 92,
             'weapondmg': 0
         },
-        'spear of annihilation':{
+        'spear of annihilation': {
             'tier': 90,
             'weapondmg': 0
         },
-        'noxious scythe':{
+        'noxious scythe': {
             'tier': 90,
             'weapondmg': 0
         },
-        'annihilation':{
+        'annihilation': {
             'tier': 87,
             'weapondmg': 0
         },
-        'mizurayi':{
+        'mizurayi': {
             'tier': 85,
             'weapondmg': 0
         },
-        'dragon rider lance':{
+        'dragon rider lance': {
             'tier': 80,
             'weapondmg': 0
         },
-        'masutas warspear':{
+        'masutas warspear': {
             'tier': 82,
             'weapondmg': 0
         },
-        'terrasaur maul':{
+        'terrasaur maul': {
             'tier': 80,
             'weapondmg': 0
         },
     },
 
     'main-hand weapons': {
-        'dark shard of leng':{
+        't100 mh leng': {
+            'tier': 100,
+            'weapondmg': 0
+        },
+        'dark shard of leng': {
             'tier': 95,
             'weapondmg': 0
         },
-        'abyssal scourge':{
+        'abyssal scourge': {
             'tier': 92,
             'weapondmg': 0
         },
-        'khopesh of tumeken':{
+        'khopesh of tumeken': {
             'tier': 92,
             'weapondmg': 0
         },
-        'drygore weapon':{
+        'drygore weapon': {
             'tier': 90,
             'weapondmg': 0
         },
-        'blade of nymora':{
+        'blade of nymora': {
             'tier': 80,
             'weapondmg': 0
         },
-        'dark ice shard':{
+        'dark ice shard': {
             'tier': 88,
             'weapondmg': 0
         },
     },
 
     'off-hand weapons': {
-        'dark sliver of leng':{
+        't100 oh leng': {
+            'tier': 100,
+            'weapondmg': 0
+        },
+        'dark sliver of leng': {
             'tier': 95,
             'weapondmg': 0
         },
-        'khopesh of elidnis':{
+        'khopesh of elidnis': {
             'tier': 92,
             'weapondmg': 0
         },
-        'drygore weapon':{
+        'drygore weapon': {
             'tier': 88,
             'weapondmg': 0
         },
-        'dark ice sliver':{
+        'dark ice sliver': {
             'tier': 85,
             'weapondmg': 0
         },
-        'blade of avaryss':{
+        'blade of avaryss': {
             'tier': 80,
             'weapondmg': 0
         }
@@ -100,265 +108,265 @@ const melee_construction = {
     },
 
     'defenders': {
-        'kalphite defender':{
+        'kalphite defender': {
             'tier': 90,
             'weapondmg': 0
         },
-        'ancient defender':{
+        'ancient defender': {
             'tier': 80,
             'weapondmg': 0
         }
     },
 
     'helmets': {
-        'vestments of havoc hood':{
+        'vestments of havoc hood': {
             'bonus': 28
         },
-        'trimmed masterwork helm':{
+        'trimmed masterwork helm': {
             'bonus': 24
         },
-        'masterwork helm':{
+        'masterwork helm': {
             'bonus': 23.2
         },
-        'jaws of the abyss':{
+        'jaws of the abyss': {
             'bonus': 21.6
         },
-        'bandos helmet':{
+        'bandos helmet': {
             'bonus': 17.7
 
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'bodies': {
-        'vestments of havoc robe top':{
+        'vestments of havoc robe top': {
             'bonus': 42
         },
-        'trimmed masterwork platebody':{
+        'trimmed masterwork platebody': {
             'bonus': 36
         },
-        'masterwork platebody':{
+        'masterwork platebody': {
             'bonus': 34.8
         },
-        'bandos platebody':{
+        'bandos platebody': {
             'bonus': 26.5
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'legs': {
-        'vestments of havoc robe bottom':{
+        'vestments of havoc robe bottom': {
             'bonus': 37
         },
-        'trimmed masterwork platelegs':{
+        'trimmed masterwork platelegs': {
             'bonus': 29
         },
-        'masterwork platelegs':{
+        'masterwork platelegs': {
             'bonus': 29.0
         },
-        'bandos tassets':{
+        'bandos tassets': {
             'bonus': 22.1
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'boots': {
-        'vestments of havoc boots':{
+        'vestments of havoc boots': {
             'bonus': 19
         },
-        'trimmed masterwork boots':{
+        'trimmed masterwork boots': {
             'bonus': 14.5
         },
-        'masterwork boots':{
+        'masterwork boots': {
             'bonus': 15
         },
-        'bandos boots':{
+        'bandos boots': {
             'bonus': 11
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'gloves': {
-        'trimmed masterwork gloves':{
+        'trimmed masterwork gloves': {
             'bonus': 15
         },
-        'masterwork gloves':{
+        'masterwork gloves': {
             'bonus': 15
         },
-        'bandos gloves':{
+        'bandos gloves': {
             'bonus': 11
         },
-        'cinderbane gloves':{
+        'cinderbane gloves': {
             'bonus': 11
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'necklaces': {
-        "essence of finality amulet (or)":{
+        "essence of finality amulet (or)": {
             "bonus": 59
         },
-        "essence of finality amulet":{
+        "essence of finality amulet": {
             "bonus": 56
         },
-        "amulet of souls (or)":{
+        "amulet of souls (or)": {
             "bonus": 48
         },
-        "amulet of souls":{
+        "amulet of souls": {
             "bonus": 46.3
         },
-        "reaper (or)":{
+        "reaper (or)": {
             "bonus": 38.4
         },
-        "reaper necklace":{
+        "reaper necklace": {
             "bonus": 36.8
         },
-        "salve amulet (e)":{
+        "salve amulet (e)": {
             "bonus": 4.2
         },
-        "salve amulet":{
+        "salve amulet": {
             "bonus": 0
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'rings': {
-        "reavers":{
+        "reavers": {
             "bonus": 27.7
         },
-        "ring of death (i)":{
+        "ring of death (i)": {
             "bonus": 27.7
         },
-        "ring of death":{
+        "ring of death": {
             "bonus": 25.2
         },
-        "asylum surgeon ring (i)":{
+        "asylum surgeon ring (i)": {
             "bonus": 23.4
         },
-        "asylum surgeon ring":{
+        "asylum surgeon ring": {
             "bonus": 21
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'capes': {
-        "igneous kal-ket":{
+        "igneous kal-ket": {
             "bonus": 43
         },
-        "completionist":{
+        "completionist": {
             "bonus": 31.5
         },
-        "tokhaar-kal-ket":{
+        "tokhaar-kal-ket": {
             "bonus": 33
         },
-        "god cape":{
+        "god cape": {
             "bonus": 31.5
         },
-        "max cape":{
+        "max cape": {
             "bonus": 31.5
         },
-        "skill cape":{
+        "skill cape": {
             "bonus": 21.6
         },
-        "none":{
+        "none": {
             "bonus": 0
         }
     },
 
     'pockets': {
-        "grimoire":{
+        "grimoire": {
             "bonus": 7
         },
-        "scripture of jas":{
+        "scripture of jas": {
             "bonus": 8
         },
-        "scripture of ful":{
+        "scripture of ful": {
             "bonus": 8
         },
-        "scripture of wen":{
+        "scripture of wen": {
             "bonus": 8
         },
-        "illuminated god book":{
+        "illuminated god book": {
             "bonus": 7
         },
-        "god book":{
+        "god book": {
             "bonus": 5
         },
-        'none':{
+        'none': {
             'bonus': 0.0
         }
     },
 
     'auras': {
-        "mahjarrat":{
+        "mahjarrat": {
             "levels": 0.0,
             "boost": 0.05
         },
-        "equilibrium":{
+        "equilibrium": {
             "levels": 0.0,
             "boost": 0.0
         },
-        'berserker':{
+        'berserker': {
             'levels': 0.1,
             'boost': 0.1
         },
-        'none':{
+        'none': {
             'levels': 0.0,
             'boost': 0.0
         }
     },
 
     'prayers': {
-        "malevolence":{
+        "malevolence": {
             "boost": 0.12
         },
-        "turmoil":{
+        "turmoil": {
             "boost": 0.10
         },
-        "piety":{
+        "piety": {
             "boost": 0.08
         },
-        "chivalry":{
+        "chivalry": {
             "boost": 0.07
         },
-        "ultimate strength":{
+        "ultimate strength": {
             "boost": 0.06
         },
-        "superhuman strength":{
+        "superhuman strength": {
             "boost": 0.06
         },
-        "burst of strength":{
+        "burst of strength": {
             "boost": 0.02
         },
-        'none':{
+        'none': {
             "boost": 0.0
         }
     },
 
     'potions': {
-        "elder overload":{
+        "elder overload": {
             'levels': 5,
             'percent': 0.17
         },
-        "supreme overload":{
+        "supreme overload": {
             'levels': 4,
             'percent': 0.16
         },
-        "overload":{
+        "overload": {
             "levels": 3,
             "percent": 0.15
         },
@@ -377,388 +385,388 @@ const melee_construction = {
             "levels": 1,
             "percent": 0.08
         },
-        'none':{
+        'none': {
             "levels": 0,
             "percent": 0
         }
     },
 
     'slayerHelmets': {
-        "none":{
+        "none": {
             "boost": 0
         },
-        "slayer helmet":{
+        "slayer helmet": {
             "boost": 0.075
         },
-        "full slayer helmet":{
+        "full slayer helmet": {
             "boost": 0.075
         },
-        "reinforced slayer helmet":{
+        "reinforced slayer helmet": {
             "boost": 0.08
         },
-        "strong slayer helmet":{
+        "strong slayer helmet": {
             "boost": 0.085
         },
-        "mighty slayer helmet":{
+        "mighty slayer helmet": {
             "boost": 0.09
         },
-        "corrupted slayer helmet":{
+        "corrupted slayer helmet": {
             "boost": 0.095
         }
     },
 
     'abilities': {
-        "auto attack":{
+        "auto attack": {
             "fixed percent": 0,
             "variable percent": 0,
             "on hit effects": true,
             "crit effects": true,
             'category': 'auto attack'
         },
-        "chaos roar":{
+        "chaos roar": {
             "fixed percent": 0.85,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "punish":{
+        "punish": {
             "fixed percent": 0.75,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "kick":{
+        "kick": {
             "fixed percent": 0.65,
             "variable percent": 0.1,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "backhand":{
+        "backhand": {
             "fixed percent": 0.65,
             "variable percent": 0.1,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "slice":{
+        "slice": {
             "fixed percent": 0.95,
             "variable percent": 0.2,
             'on hit effects': true,
             'crit effects': true,
             'category': 'basic'
         },
-        "havoc":{
+        "havoc": {
             "fixed percent": 1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "smash":{
+        "smash": {
             "fixed percent": 1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
-            'category': 'basic'        
+            'category': 'basic'
         },
-        "bladed dive":{
+        "bladed dive": {
             "fixed percent": 0.75,
             "variable percent": 0.2,
             'on hit effects': true,
             'crit effects': true,
             'category': 'basic'
         },
-        "greater barge - 9t":{
+        "greater barge - 9t": {
             "fixed percent": 1.2,
             "variable percent": 0.38,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "fury":{
+        "fury": {
             "fixed percent": 1.1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "greater fury":{
+        "greater fury": {
             "fixed percent": 1.2,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "decimate":{
+        "decimate": {
             "fixed percent": 1.1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "cleave":{
+        "cleave": {
             "fixed percent": 1.1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "sever":{
+        "sever": {
             "fixed percent": 1.1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'basic'
         },
-        "dismember":{
+        "dismember": {
             "fixed percent": 0.25,
             "variable percent": 0.06,
             "on hit effects": false,
             "crit effects": false,
             'category': 'basic'
         },
-        "flurry":{
+        "flurry": {
             "fixed percent": 0.7,
             "variable percent": 0.1,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "greater flurry":{
+        "greater flurry": {
             "fixed percent": 1.0,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "stomp":{
+        "stomp": {
             "fixed percent": 1.2,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "forceful backhand":{
+        "forceful backhand": {
             "fixed percent": 1.2,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "quake":{
+        "quake": {
             "fixed percent": 1.3,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "slaughter":{
+        "slaughter": {
             "fixed percent": 0.3,
             "variable percent": 0.1,
             "on hit effects": false,
             "crit effects": false,
             'category': 'threshold'
         },
-        "destroy":{
+        "destroy": {
             "fixed percent": 1.2,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "assault":{
+        "assault": {
             "fixed percent": 1.25,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "hurricane 1":{
+        "hurricane 1": {
             "fixed percent": 1.2,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "hurricane 2":{
+        "hurricane 2": {
             "fixed percent": 1.35,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'threshold'
         },
-        "blood tendrils":{
+        "blood tendrils": {
             "fixed percent": 0.5,
             "variable percent": 0.1,
             "on hit effects": false,
             "crit effects": false,
             'category': 'threshold'
         },
-        "overpower":{
+        "overpower": {
             "fixed percent": 2.7,
             "variable percent": 0.6,
             "on hit effects": true,
             "crit effects": true,
             'category': 'ultimate'
         },
-        "pulverise":{
+        "pulverise": {
             "fixed percent": 2.7,
             "variable percent": 0.6,
             "on hit effects": true,
             "crit effects": true,
             'category': 'ultimate'
         },
-        "frenzy":{
+        "frenzy": {
             "fixed percent": 1.45,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'ultimate'
         },
-        "massacre - initial hit":{
+        "massacre - initial hit": {
             "fixed percent": 1,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'ultimate'
         },
-        "massacre - bleed hit":{
+        "massacre - bleed hit": {
             "fixed percent": 0.65,
             "variable percent": 0,
             "on hit effects": false,
             "crit effects": false,
             'category': 'dot'
         },
-        "dragon claw 1":{
+        "dragon claw 1": {
             "fixed percent": 1.6,
             "variable percent": 0.4,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon claw 2":{
+        "dragon claw 2": {
             "fixed percent": 0.8,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon claw 3":{
+        "dragon claw 3": {
             "fixed percent": 0.4,
             "variable percent": 0.1,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon claw 4":{
+        "dragon claw 4": {
             "fixed percent": 0.4,
             "variable percent": 0.1,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "ezk - initial hit":{
+        "ezk - initial hit": {
             "fixed percent": 1.1,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "ezk - bleed hit":{
+        "ezk - bleed hit": {
             "fixed percent": 0.55,
             "variable percent": 0.2,
             "on hit effects": false,
             "crit effects": false,
             'category': 'dot'
         },
-        "granite maul":{
+        "granite maul": {
             "fixed percent": 1.0,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon longsword":{
+        "dragon longsword": {
             "fixed percent": 2.5,
             "variable percent": 0.4,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "icy tempest - main":{
+        "icy tempest - main": {
             "fixed percent": 1.0,
             "variable percent": 0.2,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "icy tempest - aoe":{
+        "icy tempest - aoe": {
             "fixed percent": 1.5,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "armadyl godsword":{
+        "armadyl godsword": {
             "fixed percent": 3.6,
             "variable percent": 0.8,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "vestas longsword":{
+        "vestas longsword": {
             "fixed percent": 2.3,
             "variable percent": 0.4,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon mace":{
+        "dragon mace": {
             "fixed percent": 2.1,
             "variable percent": 0.4,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon dagger":{
+        "dragon dagger": {
             "fixed percent": 1.1,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "vinewhip - initial":{
+        "vinewhip - initial": {
             "fixed percent": 0.2,
             "variable percent": 0.8,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "vinewhip - dot":{
+        "vinewhip - dot": {
             "fixed percent": 0.065,
             "variable percent": 0.265,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon halberd":{
+        "dragon halberd": {
             "fixed percent": 1.05,
             "variable percent": 0.3,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "dragon 2h":{
+        "dragon 2h": {
             "fixed percent": 2.6,
             "variable percent": 0.6,
             "on hit effects": true,
             "crit effects": true,
             'category': 'spec'
         },
-        "meteor strike":{
+        "meteor strike": {
             "fixed percent": 2.7,
             "variable percent": 0.6,
             "on hit effects": true,
